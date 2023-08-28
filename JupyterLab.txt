@@ -1,0 +1,259 @@
+ vscs:sw:05b5:init got "connectToLiveShareMessageType" message Object
+ vscs:sw:05b5:init connecting to Live Share
+  Event handler of 'message' event must be added on the initial evaluation of worker script.
+s @ service-worker.js:1
+ vscs:sw:05b5:connection-hub:liveshare-sw requested to connect Object Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:88096CAACBE23770A77B173FEBEFBEAA3D4E connection record: false
+ vscs:sw:05b5:connection-hub:liveshare-sw:88096CAACBE23770A77B173FEBEFBEAA3D4E creating new connection
+ vscs:sw:05b5:connection-hub:liveshare-sw creating connection Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare asked to connect
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating new connection
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating connection
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare connection status changed: none -> connecting, error: undefined
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare firing change event:  Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:onConnectionChanged:88096CAACBE23770A77B173FEBEFBEAA3D4E none -> connecting
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating workspace client Object
+ vscs:sw:05b5:init got "configureServiceWorker" message Object
+ vscs:sw:05b5:ConfigurationManager Updated service worker configuration Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f connecting...
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Local version: SSH-2.0-dev-tunnels-ssh_3.11.22, remote version: SSH-2.0-Microsoft.VisualStudio.Ssh_3.4
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient KeyExchange negotiation: Server (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group16-sha512, diffie-hellman-group14-sha256, ext-info-s) Client (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group14-sha256) => ecdh-sha2-nistp384
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient PublicKey negotiation: Server (rsa-sha2-512, rsa-sha2-256) Client (rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256) => rsa-sha2-512
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientEncryption negotiation: Server (aes256-gcm@openssh.com, aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-gcm@openssh.com
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerEncryption negotiation: Server (aes256-gcm@openssh.com, aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-gcm@openssh.com
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientCompression negotiation: Server (none) Client (none) => none
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerCompression negotiation: Server (none) Client (none) => none
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f encrypted.
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f Authenticating([ssh-rsa])
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f server authenticated.
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient join started
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f client authenticated.
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Host version: {"version":"1.0.5571.49914","protocolVersion":"2.2","platformName":"Linux 5.15.0","platformVersion":"5.15.0.1041"}
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient joinWorkspace -> session:7 conversation:1500ed8b-7b9f-4b92-a213-febb2b5edfa1 join messages count:2
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient join completed
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient:1 Start checking connection timeout:5000
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare ownerId: "398a6654-997b-47e9-b12b-9515b896b4de_83816237"
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare LS session joined and authenticated
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Creating proxy for workspace service
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare connection status changed: connecting -> connected, error: undefined
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare firing change event:  Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:onConnectionChanged:88096CAACBE23770A77B173FEBEFBEAA3D4E connecting -> connected
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare 🔌 connected
+ vscs:sw:05b5:init got "connectToLiveShareMessageType" message Object
+ vscs:sw:05b5:init connecting to Live Share
+  Event handler of 'message' event must be added on the initial evaluation of worker script.
+s @ service-worker.js:1
+ vscs:sw:05b5:connection-hub:liveshare-sw requested to connect Object Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:88096CAACBE23770A77B173FEBEFBEAA3D4E connection record: false
+ vscs:sw:05b5:connection-hub:liveshare-sw:88096CAACBE23770A77B173FEBEFBEAA3D4E creating new connection
+ vscs:sw:05b5:connection-hub:liveshare-sw creating connection Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare asked to connect
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating new connection
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating connection
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare connection status changed: none -> connecting, error: undefined
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare firing change event:  Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:onConnectionChanged:88096CAACBE23770A77B173FEBEFBEAA3D4E none -> connecting
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating workspace client Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f connecting...
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Local version: SSH-2.0-dev-tunnels-ssh_3.11.22, remote version: SSH-2.0-Microsoft.VisualStudio.Ssh_3.4
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient KeyExchange negotiation: Server (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group16-sha512, diffie-hellman-group14-sha256, ext-info-s) Client (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group14-sha256) => ecdh-sha2-nistp384
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient PublicKey negotiation: Server (rsa-sha2-512, rsa-sha2-256) Client (rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256) => rsa-sha2-512
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientEncryption negotiation: Server (aes256-gcm@openssh.com, aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-gcm@openssh.com
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerEncryption negotiation: Server (aes256-gcm@openssh.com, aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-gcm@openssh.com
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientCompression negotiation: Server (none) Client (none) => none
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerCompression negotiation: Server (none) Client (none) => none
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f encrypted.
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f Authenticating([ssh-rsa])
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f server authenticated.
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient join started
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f client authenticated.
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Host version: {"version":"1.0.5571.49914","protocolVersion":"2.2","platformName":"Linux 5.15.0","platformVersion":"5.15.0.1041"}
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient joinWorkspace -> session:10 conversation:1500ed8b-7b9f-4b92-a213-febb2b5edfa1 join messages count:2
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient join completed
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient:2 Start checking connection timeout:5000
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare ownerId: "398a6654-997b-47e9-b12b-9515b896b4de_83816237"
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare LS session joined and authenticated
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Creating proxy for workspace service
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare connection status changed: connecting -> connected, error: undefined
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare firing change event:  Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:onConnectionChanged:88096CAACBE23770A77B173FEBEFBEAA3D4E connecting -> connected
+ vscs:sw:05b5:connection-hub:liveshare-sw:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare 🔌 connected
+ vscs:web-client:7564 init 👋
+ vscs:web-client:7564:workbench-telemetry:telemetry-service initialize {
+  "browserId": "8fc63a981829d8fbd7126c4ad041efd9",
+  "sessionId": "0aaad727-d701-4f7a-9da7-b9ae0244ffb5",
+  "pageLoadId": "7f92b40320b148f3ea2ccab1d742122c",
+  "host": "ppe.github.dev",
+  "browserName": "edge-chromium",
+  "browserVersion": "115.0.1901",
+  "browserOS": "Windows 10",
+  "vscodeCommit": "6c3e3dba23e8fadc360aed75ce363ba185c49794",
+  "vscodeQuality": "stable",
+  "portalName": "codespaces-web-client",
+  "version": "0.1.02426.589-ca0febe3",
+  "stableVSCodeCommitId": "6c3e3dba23e8fadc360aed75ce363ba185c49794",
+  "insiderVSCodeCommitId": "a0377f0c51dbb2d3188565cdf35e89929f864e65",
+  "serviceLocation": "SoutheastAsia",
+  "serviceInstance": "ppe-rel-SoutheastAsia",
+  "environment": "Staging",
+  "serverCorrelationId": "a0cc47e8-94e0-41af-b919-dad43fa531f7",
+  "cookiesEnabled": true,
+  "workbenchType": "codespaces",
+  "editor": "jupyter"
+}
+  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+e._parseColor @ commons-app-xterm.js…1c9ed09509f6c3.js:1
+  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+e._parseColor @ commons-app-xterm.js…1c9ed09509f6c3.js:1
+  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+t._drawToCache @ commons-app-xterm.js…1c9ed09509f6c3.js:1
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint requested to connect Object Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:88096CAACBE23770A77B173FEBEFBEAA3D4E connection record: false
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:88096CAACBE23770A77B173FEBEFBEAA3D4E creating new connection
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint creating connection Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare asked to connect
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare creating new connection
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare creating connection
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare connection status changed: none -> connecting, error: undefined
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare firing change event:  Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:onConnectionChanged:88096CAACBE23770A77B173FEBEFBEAA3D4E none -> connecting
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare requested to connect once Object Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare requested to connect Object Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:88096CAACBE23770A77B173FEBEFBEAA3D4E connection record: false
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:88096CAACBE23770A77B173FEBEFBEAA3D4E creating new connection
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare creating connection Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare asked to connect
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating new connection
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating connection
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare connection status changed: none -> connecting, error: undefined
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare firing change event:  Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:onConnectionChanged:88096CAACBE23770A77B173FEBEFBEAA3D4E none -> connecting
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare creating workspace client Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient:WorkspaceApi getWorkspaceSessionInfo -> workspaceId:88096CAACBE23770A77B173FEBEFBEAA3D4E
+ vscs:web-client:7564:codespaces-component:workbench-page initialize service worker Live Share connection
+ vscs:sw:05b5:init got "connectToLiveShareMessageType" message Object
+ vscs:sw:05b5:init connecting to Live Share
+ vscs:sw:05b5:connection-hub:liveshare-sw requested to connect Object Object
+ vscs:sw:05b5:connection-hub:liveshare-sw:88096CAACBE23770A77B173FEBEFBEAA3D4E connection record: true
+ vscs:sw:05b5:connection-hub:liveshare-sw:88096CAACBE23770A77B173FEBEFBEAA3D4E return connected
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint requested to connect once Object Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint requested to connect Object Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:88096CAACBE23770A77B173FEBEFBEAA3D4E connection record: true
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:88096CAACBE23770A77B173FEBEFBEAA3D4E connecting with timeout - Infinity ms
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare asked to connect with timeout of Infinity ms
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare asked to connect
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare return promise, resolved: false
+ vscs:sw:05b5:init got "configureServiceWorker" message Object
+ vscs:web-client:7564:codespace-state-watcher codespace state -> Available
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f connecting...
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Local version: SSH-2.0-dev-tunnels-ssh_3.11.22, remote version: SSH-2.0-Microsoft.VisualStudio.Ssh_3.4
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient KeyExchange negotiation: Server (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group16-sha512, diffie-hellman-group14-sha256, ext-info-s) Client (ecdh-sha2-nistp384, ecdh-sha2-nistp256, diffie-hellman-group14-sha256) => ecdh-sha2-nistp384
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient PublicKey negotiation: Server (rsa-sha2-512, rsa-sha2-256) Client (rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp384, ecdsa-sha2-nistp256) => rsa-sha2-512
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientEncryption negotiation: Server (aes256-gcm@openssh.com, aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-gcm@openssh.com
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerEncryption negotiation: Server (aes256-gcm@openssh.com, aes256-cbc, aes256-ctr) Client (aes256-gcm@openssh.com, aes256-ctr) => aes256-gcm@openssh.com
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerHmac negotiation: Server (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) Client (hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512, hmac-sha2-256) => hmac-sha2-512-etm@openssh.com
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ClientCompression negotiation: Server (none) Client (none) => none
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient ServerCompression negotiation: Server (none) Client (none) => none
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f encrypted.
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f Authenticating([ssh-rsa])
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f server authenticated.
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient join started
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient f client authenticated.
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Host version: {"version":"1.0.5571.49914","protocolVersion":"2.2","platformName":"Linux 5.15.0","platformVersion":"5.15.0.1041"}
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient joinWorkspace -> session:11 conversation:1500ed8b-7b9f-4b92-a213-febb2b5edfa1 join messages count:2
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient join completed
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient:1 Start checking connection timeout:5000
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare ownerId: "398a6654-997b-47e9-b12b-9515b896b4de_83816237"
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare LS session joined and authenticated
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Creating proxy for workspace service
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare connection status changed: connecting -> connected, error: undefined
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare firing change event:  Object
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:onConnectionChanged:88096CAACBE23770A77B173FEBEFBEAA3D4E connecting -> connected
+ vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare 🔌 connected
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare connection status changed: connecting -> connected, error: undefined
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare firing change event:  Object
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:onConnectionChanged:88096CAACBE23770A77B173FEBEFBEAA3D4E connecting -> connected
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:connection-hub:liveshare-joint:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare-joint:liveshare 🔌 connected
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Creating proxy for IJupyterServerHostService service
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page:jupyter-workbench Initializing browser-based codespace host service client
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page:jupyter-workbench Initializing browser-based Jupyter server host service client
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page:jupyter-workbench Initializing browser-based VS Code server host service client
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page Creating or reusing https/16635 with privacy 'undefined', attempt 0
+872.76e62d1f19ce8837067a.js:1  Refused to set unsafe header "User-Agent"
+(anonymous) @ 872.76e62d1f19ce8837067a.js:1
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:connection-hub:liveshare:connection:88096CAACBE23770A77B173FEBEFBEAA3D4E:liveshare:WorkspaceClient Creating proxy for sourceEvent service
+327.7adbd6b19923e7f0cba2.js:1  vscs:web-client:7564:codespaces-component:workbench-page Error: Timed out performing tunnel_management_client_create_tunnel_port after 1000ms
+    at C.<anonymous> (app.0e81642af680d0e1bd12.js:1:198979)
+    at Generator.next (<anonymous>)
+    at app.0e81642af680d0e1bd12.js:1:189491
+    at new Promise (<anonymous>)
+    at i (app.0e81642af680d0e1bd12.js:1:189236)
+    at C.withTimeout (app.0e81642af680d0e1bd12.js:1:198881)
+    at C.<anonymous> (app.0e81642af680d0e1bd12.js:1:198580)
+    at Generator.next (<anonymous>)
+    at app.0e81642af680d0e1bd12.js:1:189491
+    at new Promise (<anonymous>)
+writeEvent @ 327.7adbd6b19923e7f0cba2.js:1
+327.7adbd6b19923e7f0cba2.js:1  vscs:web-client:7564:workbench-telemetry:telemetry-service ["codespaces/web/tunnel-operation-error",{"errorCode":-1,"errorType":"TunnelTimeOutError","errorMessage":"Timed out performing tunnel_management_client_create_tunnel_port after 1000ms","originalErrorType":"[no original type]","errorDidCatch":false,"stack":"Error: Timed out performing tunnel_management_client_create_tunnel_port after 1000ms\n    at C.<anonymous> [PATH]/app.0e81642af680d0e1bd12.js:1:198979)\n    at Generator.next (<anonymous>)\n    at [PATH]/app.0e81642af680d0e1bd12.js:1:189491\n    at new Promise (<anonymous>)\n    at i [PATH]/app.0e81642af680d0e1bd12.js:1:189236)\n    at C.withTimeout [PATH]/app.0e81642af680d0e1bd12.js:1:198881)\n    at C.<anonymous> [PATH]/app.0e81642af680d0e1bd12.js:1:198580)\n    at Generator.next (<anonymous>)\n    at [PATH]/app.0e81642af680d0e1bd12.js:1:189491\n    at new Promise (<anonymous>)","startTime":1692865381716,"duration":1001,"operationType":"tunnel_management_client_create_tunnel_port"}]
+writeEvent @ 327.7adbd6b19923e7f0cba2.js:1
+use.rel.tunnels.api.visualstudio.com/api/v1/tunnels/jn4158c2/ports:1 
+        
+        
+        Failed to load resource: the server responded with a status of 409 ()
+872.76e62d1f19ce8837067a.js:1  Refused to set unsafe header "User-Agent"
+(anonymous) @ 872.76e62d1f19ce8837067a.js:1
+use.rel.tunnels.api.visualstudio.com/api/v1/tunnels/jn4158c2/ports:1 
+        
+        
+        Failed to load resource: the server responded with a status of 409 ()
+327.7adbd6b19923e7f0cba2.js:1  vscs:web-client:7564:codespaces-component:workbench-page Error: Tunnel service error: Conflict with existing entity. Tunnel port number conflicts with an existing port in the tunnel.
+    at e.exports (872.76e62d1f19ce8837067a.js:1:635586)
+    at e.exports (872.76e62d1f19ce8837067a.js:1:638008)
+    at XMLHttpRequest.v (872.76e62d1f19ce8837067a.js:1:630907)
+writeEvent @ 327.7adbd6b19923e7f0cba2.js:1
+327.7adbd6b19923e7f0cba2.js:1  vscs:web-client:7564:workbench-telemetry:telemetry-service ["codespaces/web/tunnel-operation-error",{"errorCode":-1,"errorMessage":"Tunnel service error: Conflict with existing entity. Tunnel port number conflicts with an existing port in the tunnel.","originalErrorType":"[no original type]","errorDidCatch":false,"stack":"Error: Tunnel service error: Conflict with existing entity. Tunnel port number conflicts with an existing port in the tunnel.\n    at e.exports [PATH]/872.76e62d1f19ce8837067a.js:1:635586)\n    at e.exports [PATH]/872.76e62d1f19ce8837067a.js:1:638008)\n    at XMLHttpRequest.v [PATH]/872.76e62d1f19ce8837067a.js:1:630907)","startTime":1692865382969,"duration":274,"operationType":"tunnel_management_client_create_tunnel_port","responseStatus":409}]
+writeEvent @ 327.7adbd6b19923e7f0cba2.js:1
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page Port https/16635 already exists, trying to get existing tunnel port
+872.76e62d1f19ce8837067a.js:1  Refused to set unsafe header "User-Agent"
+(anonymous) @ 872.76e62d1f19ce8837067a.js:1
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page Creating or reusing https/16635 with privacy 'undefined', attempt 1
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page https/16635 already exists with privacy 'private' so reusing the existing port
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page Tunnel client is unconnected, fetching tunnel and connecting Object
+872.76e62d1f19ce8837067a.js:1  Refused to set unsafe header "User-Agent"
+(anonymous) @ 872.76e62d1f19ce8837067a.js:1
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page:jupyter-workbench Executed get-running-server using gRPC
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page Creating or reusing undefined/8888 with privacy 'undefined', attempt 0
+872.76e62d1f19ce8837067a.js:1  Refused to set unsafe header "User-Agent"
+(anonymous) @ 872.76e62d1f19ce8837067a.js:1
+use.rel.tunnels.api.visualstudio.com/api/v1/tunnels/jn4158c2/ports:1 
+        
+        
+        Failed to load resource: the server responded with a status of 409 ()
+327.7adbd6b19923e7f0cba2.js:1  vscs:web-client:7564:codespaces-component:workbench-page Error: Tunnel service error: Conflict with existing entity. Tunnel port number conflicts with an existing port in the tunnel.
+    at e.exports (872.76e62d1f19ce8837067a.js:1:635586)
+    at e.exports (872.76e62d1f19ce8837067a.js:1:638008)
+    at XMLHttpRequest.v (872.76e62d1f19ce8837067a.js:1:630907)
+writeEvent @ 327.7adbd6b19923e7f0cba2.js:1
+327.7adbd6b19923e7f0cba2.js:1  vscs:web-client:7564:workbench-telemetry:telemetry-service ["codespaces/web/tunnel-operation-error",{"errorCode":-1,"errorMessage":"Tunnel service error: Conflict with existing entity. Tunnel port number conflicts with an existing port in the tunnel.","originalErrorType":"[no original type]","errorDidCatch":false,"stack":"Error: Tunnel service error: Conflict with existing entity. Tunnel port number conflicts with an existing port in the tunnel.\n    at e.exports [PATH]/872.76e62d1f19ce8837067a.js:1:635586)\n    at e.exports [PATH]/872.76e62d1f19ce8837067a.js:1:638008)\n    at XMLHttpRequest.v [PATH]/872.76e62d1f19ce8837067a.js:1:630907)","startTime":1692865386635,"duration":763,"operationType":"tunnel_management_client_create_tunnel_port","responseStatus":409}]
+writeEvent @ 327.7adbd6b19923e7f0cba2.js:1
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page Port http/8888 already exists, trying to get existing tunnel port
+872.76e62d1f19ce8837067a.js:1  Refused to set unsafe header "User-Agent"
+(anonymous) @ 872.76e62d1f19ce8837067a.js:1
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page Creating or reusing undefined/8888 with privacy 'undefined', attempt 1
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page http/8888 already exists with privacy 'private' so reusing the existing port
+327.7adbd6b19923e7f0cba2.js:1 vscs:web-client:7564:codespaces-component:workbench-page initialize service worker Live Share connection
+assets.ppe.github.dev/:1  Refused to frame 'https://potential-palm-tree-9xvgggw5rv5cj69-8888.app.ppe.github.dev/' because it violates the following Content Security Policy directive: "frame-src 'self' https://*.webview.dev.codespaces.githubusercontent.com/webview/ https://*.webview.ppe.codespaces.githubusercontent.com/webview/ https://*.assets.dev.github.dev/ https://*.assets.ppe.github.dev/ https://*.preview.app.github.dev/".
+
+service-worker.js:1 vscs:sw:05b5:init got "connectToLiveShareMessageType" message Object
+service-worker.js:1 vscs:sw:05b5:init connecting to Live Share
+service-worker.js:1 vscs:sw:05b5:connection-hub:liveshare-sw requested to connect Object Object
+service-worker.js:1 vscs:sw:05b5:connection-hub:liveshare-sw:88096CAACBE23770A77B173FEBEFBEAA3D4E connection record: true
+service-worker.js:1 vscs:sw:05b5:connection-hub:liveshare-sw:88096CAACBE23770A77B173FEBEFBEAA3D4E return connected
+(index):1957  crbug/1173575, non-JS module files deprecated.
+(anonymous) @ (index):1957
+DevTools failed to load source map: Could not load content for https://assets.ppe.github.dev/static/primer.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
